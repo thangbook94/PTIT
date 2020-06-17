@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="com.example.TravelSerivce" name="TravelSerivce" url-pattern="/TravelSerivce"/>
+  <endpoint implementation="com.example.OrderService" name="OrderService" url-pattern="/OrderService"/>
+  <endpoint implementation="com.example.ItemService" name="ItemService" url-pattern="/ItemService"/>
+  <endpoint implementation="com.example.ItemServiceRPC" name="ItemServiceRPC" url-pattern="/ItemServiceRPC"/>
+</endpoints>

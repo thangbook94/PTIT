@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pieces">
+        <item>Chess Piece - King</item>
+        <item>Chess Piece - Queen</item>
+        <item>Chess Piece - Bishop</item>
+        <item>Chess Piece - Knight</item>
+        <item>Chess Piece - Rook</item>
+        <item>Chess Piece - Pawn</item>
+    </string-array>
+
+    <string-array name="descriptions">
+    <item>The king moves exactly one vacant square in any direction: forwards, backwards, left, right, or diagonally. It can also castle in conjunction with a rook.</item>
+    <item>The queen moves any number of vacant squares in any direction: forwards, backwards, left, right, or diagonally, in a straight line.</item>
+    <item>The bishop moves any number of vacant squares diagonally in a straight line. Consequently, a bishop stays on squares of the same color throughout a game. The two bishops each player starts with move on squares of opposite colors.</item>
+    <item>The knight moves on an extended diagonal from one corner of any 2×3 rectangle of squares to the furthest opposite corner. Consequently, the knight alternates its square color each time it moves. The knight is the only piece that jumps over any intervening piece(s) when moving (castling being the only special instance in which pieces jump over one another).</item>
+    <item>The rook moves any number of vacant squares forwards, backwards, left, or right in a straight line. It also takes part, along with the king, in a special move called castling.</item>
+    <item>The pawn moves forward exactly one space, or optionally, two spaces when on its starting square, toward the opponent\'s side of the board. When there is an enemy piece one square diagonally ahead of the pawn, either left or right, then the pawn may capture that piece. A pawn can perform a special type of capture of an enemy pawn called en passant. If the pawn reaches a square on the back rank of the opponent, it promotes to the player\'s choice of a queen, rook, bishop, or knight</item>
+</string-array>
+
+</resources>

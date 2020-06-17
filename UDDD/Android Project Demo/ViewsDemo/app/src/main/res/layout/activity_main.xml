@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Textview 1"
+        android:textSize="10sp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:id="@+id/edt1"
+        android:textSize="10sp"
+        android:background="#FFFFFF"
+        android:hint="type something"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:id="@+id/bt1"
+        android:background="#009688"></Button>
+
+    <ImageButton
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imbutton1"
+        android:src="@mipmap/ic_launcher_round">
+
+    </ImageButton>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:text="Checkbox 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:textSize="20sp"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:text="Check box 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:textSize="20sp"></CheckBox>
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/toggle1"
+        android:text="Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ToggleButton>
+
+    <RadioGroup
+        android:id="@+id/group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb1"
+            android:textSize="20sp"
+            android:text="Radio Button 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:textSize="20sp"
+            android:text="Radio Button 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb3"
+            android:textSize="20sp"
+            android:text="Radio Button 3"
+            android:layout_width="wrap_content"
+            android:checked="true"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb4"
+            android:textSize="20sp"
+            android:text="Radio Button 4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Setting" android:id="@+id/menuSetting"></item>
+    <item android:title="Share" android:id="@+id/menuShare">
+        <menu>
+            <item android:title="Share Pic" android:id="@+id/sharePicMenu"></item>
+            <item android:title="Share Info" android:id="@+id/ShareInfoMenu"></item>
+        </menu>
+
+    </item>
+    <item android:title="Search" android:id="@+id/menuSearch"></item>
+    <item android:title="Exit" android:id="@+id/menuExit"></item>
+</menu>

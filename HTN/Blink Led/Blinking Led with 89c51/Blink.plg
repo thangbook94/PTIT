@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\usman\Desktop\Blinking Led with 89c51\Blink.uv2
+Project File Date:  09/24/2014
+
+<h2>Output:</h2>
+compiling blink.c...
+blink.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=72
+"Blink" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=72
+creating hex file from "Blink"...
+"Blink" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Stutudent_detail">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#CBE2C4">
+
+        <TableRow
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/text1"
+                android:text="SQLite Demo"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+
+                >
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="ID:"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/edID"
+                android:hint="Id here"
+                android:textStyle="bold"></EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Name:"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/edName"
+                android:hint="Name here"
+                android:textStyle="bold"></EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Tel Number:"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/edTel"
+                android:hint="Tel number here"
+                android:textStyle="bold"></EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Email:"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/edEmail"
+                android:hint="Email here"
+                android:textStyle="bold"></EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <CheckBox
+                android:id="@+id/checkboxChange"
+                android:text="Change"></CheckBox>
+
+            <Button
+                android:id="@+id/btUpdate"
+                android:text="Update"></Button>
+
+            <Button
+                android:id="@+id/btCancel"
+                android:text="Cancel"></Button>
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>

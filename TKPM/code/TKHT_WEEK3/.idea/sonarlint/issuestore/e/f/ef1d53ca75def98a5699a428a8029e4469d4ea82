@@ -1,0 +1,7 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ÇŒ¡Ş8ºˆõ‡œ.
+C	java:S131""Add a default case to this switch.(Ëç´Áşÿÿÿÿ8ÿˆœ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÉ›Æ
+m
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(Ëç´Áşÿÿÿÿ8ƒÈ÷‡œ.

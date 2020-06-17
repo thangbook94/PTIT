@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddStudent">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TableRow>
+
+            <TextView
+                android:text="ID"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtAddID"
+                android:enabled="false"
+                android:textSize="20sp"></EditText>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Name"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtAddName"
+                android:hint="Type Name"
+                android:textSize="20sp"></EditText>
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:text="Tel"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtAddTel"
+                android:hint="Type Tel"
+                android:textSize="20sp"></EditText>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Email"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtAdEmal"
+                android:hint="Type Email"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp"></EditText>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btAdd"
+                android:layout_margin="10dp"
+                android:text="ADD Student"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/btRedo"
+                android:layout_margin="10dp"
+                android:text="Redo"
+                android:textSize="20sp"></Button>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
