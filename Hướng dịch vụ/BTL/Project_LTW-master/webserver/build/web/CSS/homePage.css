@@ -1,0 +1,499 @@
+/*Created on : 20/11
+Author: MinhTran
+About: CSS Body Part-1
+*/
+
+body
+{
+    font-family: inherit;
+    overflow-x: hidden;
+}
+
+
+.body-page
+{
+    width: 100%;
+    height: 2260px;
+}
+
+.body-page-part1
+{
+    position: relative;
+    width: 100%;
+    height: 530px;
+}
+
+/*.body-page-part1 img
+{
+    position: absolute;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}*/
+.video-content
+{
+    position: absolute;
+    width: 100%;
+    height: 530px;
+}
+
+
+.body-page-part1 video
+{
+    position: absolute;
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+}
+
+.poster-content
+{
+    position: absolute;
+    width: 425px;
+    height: 430px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+.poster-content-signup
+{
+    width: 406px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor:pointer;
+}
+
+.poster-content-signup a
+{
+    background-color: black;
+    color:white;
+    display: inline-flex;
+    transform: translate(-3px,-3px);
+}
+
+.poster-content-signup span
+{
+    padding:17px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.poster-content-introduce
+{
+    letter-spacing: -1px;
+}
+
+.poster-content-signup a:hover
+{
+    color:gray;
+    
+}
+
+.sign-up-now::before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    bottom: -3px;
+    height: 3px;
+    left: 2px;
+    width: 100%;
+}
+
+.sign-up-now::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 100%;
+    right: -3px;
+    top: 2px;
+    width: 3px;
+}
+
+.body-page-part2
+{
+    position: relative;
+    width:100%;
+    height:290px;
+}
+
+.body-page-part2-contain
+{
+    width: 100%;
+    padding: 12px;
+    height: 276px;
+    display: flex;
+    justify-content: center;
+}
+
+.type-discount
+{
+    position: relative;
+    padding:12px;
+    height: 252px;
+    width: 280px;
+}
+
+.type-discount img
+{
+    position: absolute;
+    height: 252px;
+    width: 280px;
+    object-fit: cover;
+}
+
+.type-discount span
+{
+    position: relative;
+}
+
+.type-discount-content
+{
+    position: relative;
+    margin-top: 205px;
+    width: 100%;
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+    cursor:pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-decoration-color: white;
+}
+
+.type-discount-content span:hover{
+    background:white;
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: black;
+/*    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    font-weight: 700;*/
+}
+
+
+/*Created on : 28/11
+Author: MinhTran
+About: CSS Body Part-3
+*/
+
+.body-page-part3
+{
+    position: relative;
+    width: 100%;
+    height:530px;
+}
+
+.body-page-part3-contain
+{
+    width: 100%;
+    padding: 12px;
+    height: 506px;
+    display: flex;
+}
+
+.body-page-part3-chapter
+{
+    padding: 12px;
+    width: 675px;
+    height: 482px;
+
+}
+
+.body-page-part3-chapter img
+{
+    position: absolute;
+    width: 678px;
+    height: 458px;
+    object-fit: cover;
+}
+
+.chapter-content{
+    position: absolute;
+    color: white;
+    width: 585px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+    height: 418px;
+    text-align: center;
+}
+
+.chapter-content-start
+{
+    margin-top:285px;
+}
+
+.shopping-now
+{
+    height:50px;
+    margin-top: 18px;
+}
+
+.shopping-now button
+{
+    position: relative;
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+    border: 0;
+    display: inline-flex;
+    cursor:pointer;
+    outline: none;
+}
+
+.shopping-now button:hover
+{
+    color:gray;
+}
+
+.shopping-now span
+{
+height: 50px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+
+.click-shopping-now:before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #fffff;
+    bottom: -3px;
+    height: 3px;
+    left: 2px;
+    width: 100%;
+}
+
+.click-shopping-now:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    height: 100%;
+    right: -3px;
+    top: 2px;
+    width: 3px;
+}
+
+.body-page-part4
+{
+    position: relative;
+    width: 100%;
+    height: 535px;
+}
+
+.body-page-part4-contain
+{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.body-page-part4-contain h4
+{
+    text-align: center;
+    font-size: 30px;
+    line-height: 28px;
+    font-family: AdineuePRO,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.shoe-trending-contain
+{
+    display: flex;
+    height: 415px;
+}
+
+.shoe-trending
+{
+    width: 255px;
+    height: 380px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid transparent;
+}
+
+.shoe-trending:hover
+{
+    border: 1px solid black;
+}
+
+.shoe-trending-image
+{
+    width: 100%;
+    height: 75%;
+}
+
+.shoe-trending-image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shoe-trending-content
+{
+    width: 100%;
+    height: 24%;
+}
+
+.typeof-shoe-trending
+{
+    color: #767677;
+    white-space: nowrap;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.costof-shoe-trending
+{
+    white-space: nowrap;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.shoe-trending-exclusive
+{
+    position: absolute;
+    background: white;
+    color: gray;
+    text-transform: uppercase;
+    text-align: center;
+    transform: rotate(270deg);
+    margin-top: 43px;
+    margin-left: -25px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.shoe-trending-like{
+    position: absolute;
+    height: 5px;
+    width: 235px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+.pagination-contain
+{
+    width: 100%;
+    height: 30px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-item-1
+{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 2px;
+}
+
+.pagination-item
+{
+    width: 20px;
+    height: 1px;
+    background-color: black;
+    margin:2px;
+}
+
+.body-page-part-5
+{
+    position: relative;
+    width:100%;
+    height: 375px;
+    display: flex;
+    background-color: #EEEEEE;
+}
+
+.body-page-part-5-container
+{
+    width: 100%;
+    height: 240px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+
+.body-page-part-5-article1
+{
+    height: 250px;
+    width: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: sans-serif;
+}
+
+.body-page-part-5-article1 p
+{
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.body-page-part-5-article2
+{
+    height: 250px;
+    width: 500px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: sans-serif;    
+}
+
+.body-page-part-5-article2 p
+{
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #333333;  
+    margin-top: 42px;
+}

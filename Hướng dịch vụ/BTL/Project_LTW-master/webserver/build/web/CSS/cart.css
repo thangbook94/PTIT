@@ -1,0 +1,136 @@
+.content
+{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+}
+.bag
+{
+    width: 70%;
+    padding: 0 50px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.order
+{
+    width: 30%;
+    padding-right: 50px;
+    text-align: left;
+}
+.title
+{
+    font-weight: bold;
+    font-size: 38px;
+}
+.list-product
+{
+    width: 100%;
+    display: block;
+}
+.product
+{
+    width: 100%;
+    height: 240px;
+    border: 1px solid #000;
+    display: flex;
+}
+.product-img
+{
+    width: 239px;
+    height: 239px;
+}
+.product-info
+{
+    padding: 10px 40px 10px 20px;
+    box-sizing: border-box;
+    width: calc(100% - 239px);
+    position: relative;
+}
+.cancel
+{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: black;
+}
+
+.cancel:hover{
+    cursor: pointer;
+    color: #767677;
+    
+}
+.product-text
+{
+    width: 100%;
+    font-size: 18px;
+}
+.quantity
+{
+    width: 80px;
+    height: 40px;
+    border: 1px solid #000;
+    outline: none;
+}
+.order-sumary
+{
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.total
+{
+    width: 100%;
+}
+.checkout
+{
+    width: 100%;
+    height: 48px;
+    border: 1px solid #000 !important;
+    background-color: #000 !important;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none !important;
+}
+.checkout:hover
+{
+    color: #fff !important;
+    cursor: pointer;
+    color: #767677;
+}
+
+.amount-item-select{
+    width: 100%;
+    display: flex;
+}
+
+.amount-select-element{
+    width: 11.3333%;
+    margin: 0 11%;
+    align-items: center;
+}
+
+.button-amount-select{
+    width: 48px;
+    height: 38px;
+    margin: 0 calc(50% - 24px);
+    border: 1px solid transparent !important;
+    border-radius: 5px;
+}
+
+.button-amount-select:hover{
+    border-color: black !important; 
+}
+
+.text-amount-select{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;  
+    line-height: 41px;
+}

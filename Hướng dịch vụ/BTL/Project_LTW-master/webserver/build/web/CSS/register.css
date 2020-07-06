@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 1, 2019, 11:21:39 PM
+    Author     : minhm
+*/
+
+body
+{
+    font-family: AdineuePRO,Helvetica,Arial,sans-serif;
+}
+.body-register-page
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.register-part-1
+{
+    width: 50%;
+    height: 100%;
+}
+
+.register-part-1-contain
+{
+    margin-left: 15%;
+    height: 100%;
+    width: 85%;
+}
+
+.logo-register
+{
+    font-size: 28px;
+}
+
+.logo-register h2
+{
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+.register-part-2
+{
+    width: 50%;
+    height: 100%;
+}
+
+
+.form-register h5
+{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-register-input
+{
+    width: 450px;
+    height: 50px;  
+    border: 1px solid #767677;
+    margin-bottom: 25px;    
+}
+
+.form-register input
+{
+    position: absolute;
+    width: 400px;
+    height: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 6px;
+    border: 1px;
+    outline: none;
+}
+
+.form-register label
+{
+    position: absolute;
+    color: #767677;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+::placeholder
+{
+    color:#767677;
+    letter-spacing: 1px;
+}
+
+.register-now
+{
+    height: 50px;
+    width: 150px;
+    background-color: black !important;
+    color: white;
+    border: 0;
+    display: inline-flex;
+    outline:none;
+}
+
+.register-now div
+{
+    height: 25px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.register-part-2-contain
+{
+    width: 85%;
+    height: 100%;
+    margin-right: 15%;
+}
+
+.register-part-2-contain ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.benefit-register
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.information-register
+{
+    text-decoration: underline;
+    margin-top:10px;
+}
+
+.information-register:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

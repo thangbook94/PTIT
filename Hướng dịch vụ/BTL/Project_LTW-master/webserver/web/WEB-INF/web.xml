@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!--Home Page-->
+    <servlet>
+        <servlet-name>Home Page</servlet-name>
+        <servlet-class>servlet.HomePageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Home Page</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <!--Login-->
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <!--User-->
+    <servlet>
+        <servlet-name>User Servlet</servlet-name>
+        <servlet-class>servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>User Servlet</servlet-name>
+        <url-pattern>/userServlet</url-pattern>
+    </servlet-mapping>
+    <!--Register-->
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+    <!--Edit User-->
+    <servlet>
+        <servlet-name>Edit User</servlet-name>
+        <servlet-class>servlet.EditUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Edit User</servlet-name>
+        <url-pattern>/editUser</url-pattern>
+    </servlet-mapping>
+    <!--Men-->
+    <servlet>
+        <servlet-name>Men</servlet-name>
+        <servlet-class>servlet.MenServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Men</servlet-name>
+        <url-pattern>/men</url-pattern>
+    </servlet-mapping>
+    <!--Women-->
+    <servlet>
+        <servlet-name>Women</servlet-name>
+        <servlet-class>servlet.WomenServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Women</servlet-name>
+        <url-pattern>/women</url-pattern>
+    </servlet-mapping>
+    <!--Kids-->
+    <servlet>
+        <servlet-name>Kids</servlet-name>
+        <servlet-class>servlet.KidsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Kids</servlet-name>
+        <url-pattern>/kids</url-pattern>
+    </servlet-mapping>
+    <!--Search-->
+    <servlet>
+        <servlet-name>Search</servlet-name>
+        <servlet-class>servlet.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+    <!--Add Product-->
+    <servlet>
+        <servlet-name>Add Product</servlet-name>
+        <servlet-class>servlet.AddProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Add Product</servlet-name>
+        <url-pattern>/addProduct</url-pattern>
+    </servlet-mapping>
+    <!--Edit Product-->
+    <servlet>
+        <servlet-name>Edit Product</servlet-name>
+        <servlet-class>servlet.EditProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Edit Product</servlet-name>
+        <url-pattern>/editProduct</url-pattern>
+    </servlet-mapping>
+    <!--Product-->
+    <servlet>
+        <servlet-name>Product Servlet</servlet-name>
+        <servlet-class>servlet.ProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Product Servlet</servlet-name>
+        <url-pattern>/productServlet</url-pattern>
+    </servlet-mapping>
+    <!--Detail Product-->
+    <servlet>
+        <servlet-name>Detail Product</servlet-name>
+        <servlet-class>servlet.DetailProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Detail Product</servlet-name>
+        <url-pattern>/detailProduct</url-pattern>
+    </servlet-mapping>
+    <!--Cart-->
+    <servlet>
+        <servlet-name>Cart</servlet-name>
+        <servlet-class>servlet.CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Cart</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+    <!--About Member Shii-->
+    <servlet>
+        <servlet-name>About Member Ship</servlet-name>
+        <servlet-class>servlet.AboutMemberShipServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>About Member Ship</servlet-name>
+        <url-pattern>/aboutMemberShip</url-pattern>
+    </servlet-mapping>
+    <!--Checkout-->
+    <servlet>
+        <servlet-name>Checkout</servlet-name>
+        <servlet-class>servlet.CheckoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Checkout</servlet-name>
+        <url-pattern>/checkout</url-pattern>
+    </servlet-mapping>
+</web-app>

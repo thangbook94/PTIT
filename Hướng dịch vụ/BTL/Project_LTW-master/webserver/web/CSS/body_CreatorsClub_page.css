@@ -1,0 +1,362 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 4, 2019, 3:05:31 PM
+    Author     : minhm
+*/
+
+body
+{
+    font-family: AdineuePRO,Helvetica,Arial,sans-serif;
+}
+
+.body-page
+{
+    position: relative;
+    height: 4700px;
+}
+
+.body-page-part-1
+{
+    height: 550px;
+}
+
+.body-page-part-1-container
+{
+    width: 98%;
+    height: 98%;
+    padding: 1%;
+    display: flex;
+}
+
+.body-page-part-1-1
+{
+    width: 50%;
+    height: 100%;
+}
+
+.body-page-part-1-2
+{
+    width: 50%;
+    height: 100%;
+}
+
+.body-page-part-1-1-container
+{
+    width: 90%;
+    height: 70%;
+    margin-left: 10%;
+    padding-bottom: 15%;
+    padding-top: 15%;
+}
+
+.body-page-part-1-1-container button:hover
+{
+    color:gray;
+    cursor: pointer;
+}
+
+.body-page-part-1-1-container h1
+{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.join-the-club
+{
+    width: 240px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    outline:none;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.join-the-club-text
+{
+    height: 50px;
+    width: 150px;
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.existing-user-login
+{
+    width: 310px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    outline:none;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.existing-user-login-text
+{
+    height: 50px;
+    width: 250px;
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: 1px;  
+}
+
+.body-page-part-1-2-container
+{
+    width: 90%;
+    height: 100%;
+    margin-right: 10%;
+}
+
+.body-page-part-1-2-container img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.body-page-part-2
+{
+    height: 100px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.body-page-part-2 div
+{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: justify;
+}
+
+.body-page-part-3
+{
+    height: 2875px;
+    width: 100%
+}
+
+.body-page-part-3-side
+{
+    width: 100%;
+    height: 525px;
+    margin-bottom: 60px;
+}
+
+.body-page-part-3-side-container
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+.body-page-part-3-side-container h3
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.body-page-part-3-side-container img
+{
+    width: 100%;
+    height: 345px;
+}
+
+.hype-access
+{
+    width: 30%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    letter-spacing: -1px;
+    height: 65px;
+    border-bottom: 3px solid black;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.your-task
+{
+    text-align: center;
+}
+
+.body-page-part-3-side-container:hover
+{
+  border: 1px solid black;
+}
+
+.body-page-part-4
+{
+    height: 550px;
+}
+
+.body-page-part-4-container
+{
+    width: 98%;
+    height: 98%;
+    padding: 1%;
+}
+
+.body-page-part-4-1
+{
+    position: absolute;
+}
+
+.body-page-part-4-1 div
+{
+    width: 100%;
+    height: 100%;
+}
+
+.body-page-part-4-1 div img
+{
+    width: 100%;
+    height: 100%;   
+}
+
+.body-page-part-4-2
+{
+    position: absolute;
+    width: 49%;
+    height: 565px;
+    margin-left: 49%;
+}
+
+.body-page-part-4-2-container
+{
+    width: 60%;
+    height: 67%;
+    margin-left: 10%;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    margin-right: 30%;
+}
+
+.body-page-part-1-1-container h1
+{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.body-page-part-4-2-container p
+{
+    text-align: end;
+}
+
+.body-page-part-4-2-container h1
+{
+    text-align: end;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.learn-more
+{
+    width: 240px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    outline:none;
+    justify-content: flex-end;
+    margin-bottom: 15px;  
+    color: white;
+}
+
+.learn-more-text
+{
+    height: 50px;
+    width: 150px;
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.level-of-club
+{
+    margin-left: 130px;
+}
+
+.body-page-part-4-2-container button:hover
+{
+    cursor: pointer;
+    color: gray;
+}
+
+.body-page-part-5
+{
+    height: 550px;
+}
+
+.body-page-part-5-container
+{
+    width: 98%;
+    height: 98%;
+    padding: 1%;
+}
+
+.body-page-part-5-1
+{
+    position: absolute;
+}
+
+.body-page-part-5-1 div
+{
+    width: 100%;
+    height: 100%;
+}
+
+.body-page-part-5-1 div img
+{
+    width: 100%;
+    height: 100%;   
+}
+
+.body-page-part-5-2
+{
+    position: absolute;
+    width: 50%;
+    height: 535px;
+}
+
+.body-page-part-5-2-container
+{
+    width: 80%;
+    height: 65%;
+    margin-left: 20%;
+    padding-bottom: 15%;
+    padding-top: 15%;
+}
+
+.body-page-part-5-2-container h1
+{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.store-container
+{
+    width: 200px;
+}

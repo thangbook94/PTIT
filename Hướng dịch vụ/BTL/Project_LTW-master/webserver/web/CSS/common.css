@@ -1,0 +1,362 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+html, body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #fff;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    overflow-y: scroll;
+}
+
+/*-----------------------------------------
+Created by: LTNghia(28/11)
+Description: Content
+Modifier: 
+*/
+
+.content{
+    width: calc(100% - 220px);
+    padding: 20px 110px;
+}
+
+.container{
+    width: 100%;
+}
+/*breadcrumb*/
+.breadcrumb{
+    height: 24px;
+    padding: 5px 0px;
+    display: flex;
+}
+
+.breadcrumb-button{
+    color: black;
+    background-color: white;
+}
+
+.breadcrumb-item-text{
+    padding-top: 4px; 
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 17px;
+    text-decoration: underline;
+    height: 19px;
+}
+
+.button-back{
+    height: calc(100% - 4px);
+    padding: 2px 2px 3px 2px;
+    margin-right: 15px; 
+    display: flex;
+}
+.back-icon{
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+}
+
+.back-text{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 17px;
+    text-decoration: underline;
+    height: 19px;
+    margin-top: 2px; 
+}
+
+.breadcrumb-button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.breadcrumb-break{
+    margin: 4px 2px; 
+}
+
+.breadcrumb-button-current{
+    padding-top: 4px; 
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 17px;
+    height: 19px;
+}
+/*title*/
+
+.content-title{
+    margin-top: 30px;
+    display: flex;
+}
+
+.content-title-text{
+    font-family: AdineuePRO,Helvetica,Arial,sans-serif;
+    margin: 0 15px 5px 0;
+    text-transform: uppercase;
+}
+
+.content-title-product{
+    font-weight: 400;
+    color: #767677;
+    margin: 12px 15px 5px 0;
+}
+
+/*filter*/
+.content-filter{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-item{
+    border: 1px solid transparent;
+    padding: 12px 10px 0 10px;
+    display: flex;
+    height: 26px;
+}
+
+.filter-item:hover{
+    cursor: pointer;
+    border-color: black; 
+}
+
+.filter-item-text{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.icon-down{
+    width: 12px;
+    height: 12px;
+    transform: scaleY(1);
+    right: 10px;
+    margin: 2px 0 0 2px; 
+}
+
+.selected{
+    font-weight: bold !important;
+}
+
+/*content - content*/
+.content-products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.button-container-product{
+    width: 100%;
+    padding: 0px; 
+    margin: 0px;
+    text-align: left;
+}
+
+.container-product{
+    width: 100%;
+}
+
+.product-detail{
+    margin: 6px;
+    border: 1px solid transparent;
+    padding: 3px;
+}
+
+.product-detail:hover{
+    cursor: pointer;
+    border-color: black;
+}
+
+.product-imformation{
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+
+.product-name-text{
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 5px; 
+}
+
+.product-price{
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 10px; 
+    color: red;
+}
+
+.amont-color{
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 2px; 
+    color: #767677;
+}
+
+.pagination{
+    padding: 40px 15px;
+    width: calc(100% - 30px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination-element{
+    width: 33.33%;
+}
+
+#button-page-previos{
+    float: left;
+}
+
+#button-page-next{
+    float: right;
+}
+
+.button-page{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: underline;
+    display: initial;
+    color: black;
+    background-color: white;
+    padding: 2px;
+}
+
+.button-page:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.select-page{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-pagination{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.box-select{
+    padding: 0px 20px;
+    border: 1px solid #ebedee;
+    display: flex;
+    margin: 0px 6px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-select:hover{
+    cursor: pointer;
+}
+
+.number{
+    font-weight: bold;
+}
+
+.select-down-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
+.container-product-all{
+    position: relative;
+    width: 25%;
+}
+
+.container-product-all:hover .container-button{
+    display: flex;
+}
+
+.container-button{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: none;
+}
+
+.button-product{
+    margin-left: 8px;
+    border: 1px solid transparent !important;
+    border-radius: 5px;
+}
+.button-product:hover{
+    cursor: pointer;
+    border-color: black !important;
+}
+
+.ui-dialog {
+    padding: 0px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+    .ui-dialog .ui-dialog-content {
+        padding: 0px;
+    }
+
+    .ui-dialog .ui-dialog-title {
+        margin: 0px;
+        font: 700 16px "Roboto" !important;
+        color: white;
+    }
+    
+.ui-draggable .ui-dialog-titlebar {
+    padding: 10px 14px;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 0px;
+}
+
+.ui-dialog .ui-dialog-content{
+    padding: 8px;
+}
+
+.container-button-dialog{
+    display: flex;
+}
+
+.item-dialog{
+    width: 30%;
+    margin: 0 10%;
+    border: 1px solid #767677;
+    border-radius: 3px; 
+    text-align: center;
+    line-height: 20px;
+}
+
+.item-dialog:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+#comfirmDelete:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}

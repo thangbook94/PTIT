@@ -1,0 +1,250 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2019, 4:53:15 PM
+    Author     : minhm
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 1, 2019, 11:21:39 PM
+    Author     : minhm
+*/
+
+body
+{
+    font-family: AdineuePRO,Helvetica,Arial,sans-serif;
+}
+.body-login-page
+{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+
+.login-part-1
+{
+    width: 50%;
+    height: 100%;
+}
+
+.login-part-1-contain
+{
+    margin-left: 15%;
+    height: 100%;
+    width: 85%;
+}
+
+.logo-login
+{
+    font-size: 28px;
+}
+
+.logo-login h2
+{
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+
+.form-login h5
+{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-login-input
+{
+    width: 450px;
+    height: 50px;  
+    border: 1px solid #767677;
+    margin-bottom: 25px;    
+}
+
+.form-login input
+{
+    position: absolute;
+    width: 400px;
+    height: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 6px;
+    border: 1px;
+    outline: none;
+}
+
+::placeholder
+{
+    color:#767677;
+    letter-spacing: 1px;
+}
+
+.login-now
+{
+    height: 50px;
+    width: 450px;
+    background-color: black !important;
+    color: white;
+    border: 0;
+    display: inline-flex;
+    margin-bottom: 10px;
+    outline:none;
+}
+
+.login-now div
+{
+    height: 25px;
+    width: 378px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    text-align: initial;
+}
+
+.forgot-password-login-contain
+{
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.forgot-password-login
+{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.forgot-password-login:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.term-condition-login
+{
+    width: 450px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.term-condition-login a
+{
+    text-decoration: underline;
+}
+
+term-decoration-login a:hover
+{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.register-part-2
+{
+    width: 50%;
+    height: 100%;
+}
+
+.register-part-2-contain
+{
+    width: 85%;
+    height: 100%;
+    margin-right: 15%;
+}
+
+.register-part-2-contain ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.benefit-register
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.information-register
+{
+    text-decoration: underline;
+    margin-top:10px;
+}
+
+.information-register:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.login-by-anotherapp
+{
+    width: 450px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border:1px solid #767677;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-by-anotherapp span
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: -2px;
+}
+.login-by-anotherapp:hover
+{
+    color:#767677;
+}
+
+.link-login{
+    text-decoration: none;
+}
+
+.register-now-body
+{
+    display: flex;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: none
+}
+
+.register-now-body:hover
+{
+    cursor:pointer;
+    color:gray;
+}
+
+.register-now-body div
+{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.click-register-now
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}

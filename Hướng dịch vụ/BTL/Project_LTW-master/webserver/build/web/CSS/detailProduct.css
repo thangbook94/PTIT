@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 7, 2019, 3:01:52 PM
+    Author     : minhm
+*/
+.body-page
+{
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.body-page-part-1
+{
+    height: 100%;
+    width: 60%;
+}
+
+.body-page-part-2
+{
+    width: 30%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.direct-another-page
+{
+    margin-top: 15px;
+    height: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+.return-page
+{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.choose-another-page
+{
+    text-decoration: underline;
+}
+
+.image-contain
+{
+    width: 100%;
+    height: 530px;
+}
+
+.image-contain img
+{
+    width: 60%;
+    height: 110%;
+    margin-left: 15%;
+}
+
+.review-items
+{
+    margin-bottom: 15px;
+}
+
+.read-review
+{
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+.read-review:hover
+{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.about-item
+{
+    color: #767677;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.name-of-item
+{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.circle:before {
+  content: ' \25CF';
+  font-size: 100px;
+}
+
+.add-to-bag
+{
+    height: 50px;
+    width: 450px;
+    background-color: black !important;
+    color: white;
+    border: 0;
+    display: inline-flex;
+    margin-bottom: 10px;
+    outline:none;
+}
+
+.add-to-bag div
+{
+    height: 25px;
+    width: 378px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    text-align: initial;
+}

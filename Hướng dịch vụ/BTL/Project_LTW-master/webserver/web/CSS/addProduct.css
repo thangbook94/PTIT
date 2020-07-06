@@ -1,0 +1,85 @@
+.content{
+    padding: 16px 0;
+}
+
+.box
+{
+    text-align: center;
+    margin: 0 10%;
+    
+}
+.title
+{
+    font-size: 38px;
+    font-weight: 700;
+}
+.row
+{
+    width: 100%;
+    display: flex;
+}
+.row-item
+{
+    width: 50%;
+    height: 100%;
+}
+.input-title
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15%;
+}
+.input-add-product, select
+{
+    padding: 13px 21px;
+    width: 70%;
+    border: 1px solid #767677;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-appearance:none;
+    appearance: none;
+
+}
+select,option:hover
+{
+    cursor: pointer;
+}
+.btn
+{
+    width: 20%;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+.add-product
+{
+    width: 100%;
+    height: 100%;
+    background-color: black !important;
+    color: #fff;
+    border: 1px solid #000 !important;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+.btn:hover
+{
+    cursor: pointer;
+    color: #767677;
+}
+option
+{
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
