@@ -1,4 +1,4 @@
-package Raita;
+package ngaunhien.Raita;
 
 public class Raita {
     //ham so sanh 2 xau

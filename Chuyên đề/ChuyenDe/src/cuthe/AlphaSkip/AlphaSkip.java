@@ -1,4 +1,4 @@
-package AlphaSkip;
+package cuthe.AlphaSkip;
 
 import java.util.ArrayList;
 import java.util.HashMap;

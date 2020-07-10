@@ -1,4 +1,4 @@
-package Skip;
+package cuthe.Skip;
 
 import java.util.ArrayList;
 import java.util.HashMap;
