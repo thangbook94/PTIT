@@ -1,7 +1,6 @@
 package Horspool;
 
 
-//https://stackjava.com/algorithm/thuat-toan-tim-kiem-horspool.html
 public class Horspool {
     public static boolean cmp(char[] x, char[] y, int y1) {
         for (char c : x) {

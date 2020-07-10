@@ -1,6 +1,7 @@
 package Raita;
 
 public class Raita {
+    //ham so sanh 2 xau
     public static boolean cmp(char[] x, int x1, int x2, char[] y, int y1) {
         for (int i = x1; i <= x2; i++) {
             if (x[i] != y[y1++]) {
@@ -9,7 +10,9 @@ public class Raita {
         }
         return true;
     }
-
+    //tao mang danh dau khoang cach tu tung tu ki tu cuoi cung cua xau mau den ki tu cuoi cung cua xau (khong tinh ki tu cuoi cung)
+    //vi du xau mau: GCAGAGAG
+    //mang danh dau: A(1) C(6) G(2) T(8)
     public static int[] preBc(char[] x) {
         int[] bc = new int[255];
         int m = x.length;
