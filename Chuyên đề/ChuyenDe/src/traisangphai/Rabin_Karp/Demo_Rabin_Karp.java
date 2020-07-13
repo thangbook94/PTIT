@@ -15,8 +15,8 @@ public class Demo_Rabin_Karp {
         hashOrigin = initHashP(pattern);
         hashCurrent = initHashT(text.substring(0, pattern.length()));
 
-        System.out.println(pattern + " : " + hashOrigin+":"+valueOrigin);
-        System.out.println(text.substring(0, pattern.length()) + " : " + hashCurrent+":"+valueCurrent);
+        System.out.println(pattern + " : " + hashOrigin + ":" + valueOrigin);
+        System.out.println(text.substring(0, pattern.length()) + " : " + hashCurrent + ":" + valueCurrent);
 
 
         for (int i = 1; i < text.length() - pattern.length() + 1; i++) {
@@ -48,7 +48,7 @@ public class Demo_Rabin_Karp {
     }
 
     private static void hash(char old, char next) {
-        valueCurrent = (int) ((valueCurrent - old * Math.pow(BASE, pattern.length()-1)) * BASE + next);
+        valueCurrent = (int) ((valueCurrent - old * Math.pow(BASE, pattern.length() - 1)) * BASE + next);
         hashCurrent = (int) (valueCurrent % PRIME);
     }
 }

@@ -7,19 +7,18 @@ public class AlphaSkip {
     public static HashMap<String, ArrayList<Integer>> preAlphaSkip(char[] x, int k) {
         HashMap<String, ArrayList<Integer>> re = new HashMap<>();
         for (int i = x.length - 1; i >= k - 1; i--) {
-            String tem = "";
+            StringBuilder tem = new StringBuilder();
             for (int j = i - k + 1; j <= i; j++) {
-                tem += x[j] + "";
+                tem.append(x[j]);
             }
+            ArrayList<Integer> temp;
             if (re.containsKey(tem + "")) {
-                ArrayList<Integer> temp = re.get(tem + "");
-                temp.add(i - k + 1);
-                re.put(tem + "", temp);
+                temp = re.get(tem + "");
             } else {
-                ArrayList<Integer> temp = new ArrayList<>();
-                temp.add(i - k + 1);
-                re.put(tem + "", temp);
+                temp = new ArrayList<>();
             }
+            temp.add(i - k + 1);
+            re.put(tem + "", temp);
         }
         return re;
     }
@@ -50,11 +49,11 @@ public class AlphaSkip {
         int m = x.length;
         int n = y.length;
         for (int j = m - 1; j < n; j += m - k + 1) {
-            String tem = "";
+            StringBuilder tem = new StringBuilder();
             for (int l = j - k + 1; l <= j; l++) {
-                tem += y[l] + "";
+                tem.append(y[l]);
             }
-            ArrayList<Integer> temp = map.get(tem);
+            ArrayList<Integer> temp = map.get(tem.toString());
             if (temp != null) {
                 for (int i : temp) {
                     if (cmp(x, y, j - i - k + 1)) {

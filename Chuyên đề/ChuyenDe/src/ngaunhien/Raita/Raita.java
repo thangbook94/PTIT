@@ -10,6 +10,7 @@ public class Raita {
         }
         return true;
     }
+
     //tao mang danh dau khoang cach tu tung tu ki tu cuoi cung cua xau mau den ki tu cuoi cung cua xau (khong tinh ki tu cuoi cung)
     //vi du xau mau: GCAGAGAG
     //mang danh dau: A(1) C(6) G(2) T(8)

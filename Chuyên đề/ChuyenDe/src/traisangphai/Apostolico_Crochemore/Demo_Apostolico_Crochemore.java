@@ -15,7 +15,6 @@ public class Demo_Apostolico_Crochemore {
         preKmp(x, m, kmpNext);
 
         for (ell = 1; x[ell - 1] == x[ell]; ) ell++;
-        if (ell == m) ell = 0;
 
 
         i = ell;

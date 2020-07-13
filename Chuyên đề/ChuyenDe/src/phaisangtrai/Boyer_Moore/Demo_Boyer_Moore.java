@@ -8,7 +8,7 @@ public class Demo_Boyer_Moore {
         searchBM(x, y);
     }
 
-    static void preBmBc(char[] x, int m, int bmBc[]) {
+    static void preBmBc(char[] x, int m, int[] bmBc) {
         int i;
 
         for (i = 0; i < 256; ++i)
@@ -17,7 +17,7 @@ public class Demo_Boyer_Moore {
             bmBc[x[i]] = m - i - 1;
     }
 
-    static void preBmGs(char[] x, int m, int bmGs[]) {
+    static void preBmGs(char[] x, int m, int[] bmGs) {
         int i, j;
         int[] suff = new int[256];
 
@@ -64,7 +64,10 @@ public class Demo_Boyer_Moore {
 
         j = 0;
         while (j <= n - m) {
-            for (i = m - 1; i >= 0 && x[i] == y[i + j]; --i) ;
+            i = m - 1;
+            while (i >= 0 && x[i] == y[i + j]) {
+                --i;
+            }
             if (i < 0) {
                 System.out.println("index : " + j);
                 j += bmGs[0];

@@ -19,7 +19,7 @@ public class Demo_Zhu_Takaoka {
             ztBc[x[i - 1]][x[i]] = m - 1 - i;
     }
 
-    static void preBmGs(char[] x, int m, int bmGs[]) {
+    static void preBmGs(char[] x, int m, int[] bmGs) {
         int i, j;
         int[] suff = new int[256];
 

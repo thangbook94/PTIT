@@ -40,8 +40,8 @@ public class Smith {
     }
 
     public static boolean cmp(char[] x, char[] y, int y1) {
-        for (int i = 0; i < x.length; i++) {
-            if (x[i] != y[y1++]) {
+        for (char c : x) {
+            if (c != y[y1++]) {
                 return false;
             }
         }

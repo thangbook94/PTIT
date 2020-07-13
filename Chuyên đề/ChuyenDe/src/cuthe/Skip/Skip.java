@@ -7,15 +7,14 @@ public class Skip {
     public static HashMap<String, ArrayList<Integer>> preSkip(char[] x) {
         HashMap<String, ArrayList<Integer>> re = new HashMap<>();
         for (int i = x.length - 1; i >= 0; i--) {
+            ArrayList<Integer> temp;
             if (re.containsKey(x[i] + "")) {
-                ArrayList<Integer> temp = re.get(x[i] + "");
-                temp.add(i);
-                re.put(x[i] + "", temp);
+                temp = re.get(x[i] + "");
             } else {
-                ArrayList<Integer> temp = new ArrayList<>();
-                temp.add(i);
-                re.put(x[i] + "", temp);
+                temp = new ArrayList<>();
             }
+            temp.add(i);
+            re.put(x[i] + "", temp);
         }
         return re;
     }

@@ -7,7 +7,7 @@ public class Demo_Tuned_BM {
         searchTunedBM(x, y);
     }
 
-    static void preBmBc(char[] x, int m, int bmBc[]) {
+    static void preBmBc(char[] x, int m, int[] bmBc) {
         int i;
 
         for (i = 0; i < 256; ++i)

@@ -7,7 +7,7 @@ public class Demo_Turbo_BM {
         searchTurboBM(x, y);
     }
 
-    static void preBmBc(char[] x, int m, int bmBc[]) {
+    static void preBmBc(char[] x, int m, int[] bmBc) {
         int i;
 
         for (i = 0; i < 256; ++i)
@@ -16,7 +16,7 @@ public class Demo_Turbo_BM {
             bmBc[x[i]] = m - i - 1;
     }
 
-    static void preBmGs(char[] x, int m, int bmGs[]) {
+    static void preBmGs(char[] x, int m, int[] bmGs) {
         int i, j;
         int[] suff = new int[256];
 
