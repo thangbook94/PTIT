@@ -15,6 +15,7 @@ public class Skip {
             }
             temp.add(i);
             re.put(x[i] + "", temp);
+
         }
         return re;
     }

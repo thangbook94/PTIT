@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed19f88e-aaca-46cf-8509-01f9271ec149" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Chuyên đề/ChuyenDe/out/production/ChuyenDe/traisangphai/Apostolico_Crochemore/Demo_Apostolico_Crochemore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chuyên đề/ChuyenDe/out/production/ChuyenDe/traisangphai/Apostolico_Crochemore/Demo_Apostolico_Crochemore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChuyenDe/AlphaSkip/AlphaSkip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChuyenDe/Horspool/Horspool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChuyenDe/Raita/Raita.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChuyenDe/Skip/Skip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChuyenDe/Smith/Smith.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cuthe/AlphaSkip/AlphaSkip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cuthe/AlphaSkip/AlphaSkip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cuthe/Skip/Skip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cuthe/Skip/Skip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ngaunhien/Raita/Raita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ngaunhien/Raita/Raita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ngaunhien/Smith/Smith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ngaunhien/Smith/Smith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/phaisangtrai/Boyer_Moore/Demo_Boyer_Moore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phaisangtrai/Boyer_Moore/Demo_Boyer_Moore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/phaisangtrai/Tuned_BM/Demo_Tuned_BM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phaisangtrai/Tuned_BM/Demo_Tuned_BM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/phaisangtrai/Turbo_BM/Demo_Turbo_BM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phaisangtrai/Turbo_BM/Demo_Turbo_BM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/phaisangtrai/Zhu_Takaoka/Demo_Zhu_Takaoka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phaisangtrai/Zhu_Takaoka/Demo_Zhu_Takaoka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/traisangphai/Apostolico_Crochemore/Demo_Apostolico_Crochemore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/traisangphai/Apostolico_Crochemore/Demo_Apostolico_Crochemore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/traisangphai/Rabin_Karp/Demo_Rabin_Karp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/traisangphai/Rabin_Karp/Demo_Rabin_Karp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1eTHqxiuYXKAchxCvhrRVRSaTvg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/phaisangtrai/Tuned_BM" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AlphaSkip" />
+      <recent name="Skip" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/phaisangtrai/Tuned_BM" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AlphaSkip (1)">
+    <configuration name="AlphaSkip (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cuthe.AlphaSkip.AlphaSkip" />
+      <module name="ChuyenDe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cuthe.AlphaSkip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlphaSkip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ngaunhien.AlphaSkip.AlphaSkip" />
+      <module name="ChuyenDe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cuthe.AlphaSkip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_Boyer_Moore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="phaisangtrai.Boyer_Moore.Demo_Boyer_Moore" />
+      <module name="ChuyenDe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="phaisangtrai.Boyer_Moore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_Knuth_Morris_Pratt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traisangphai.Knuth_Morris_Pratt.Demo_Knuth_Morris_Pratt" />
+      <module name="ChuyenDe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traisangphai.Knuth_Morris_Pratt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Skip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ngaunhien.Skip.Skip" />
+      <module name="ChuyenDe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cuthe.Skip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AlphaSkip (1)" />
+        <item itemvalue="Application.Demo_Boyer_Moore" />
+        <item itemvalue="Application.Demo_Knuth_Morris_Pratt" />
+        <item itemvalue="Application.AlphaSkip" />
+        <item itemvalue="Application.Skip" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed19f88e-aaca-46cf-8509-01f9271ec149" name="Default Changelist" comment="" />
+      <created>1594338856895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594338856895</updated>
+      <workItem from="1594338862465" duration="300000" />
+      <workItem from="1594371395105" duration="240000" />
+      <workItem from="1594371654681" duration="154000" />
+      <workItem from="1594374977796" duration="1156000" />
+      <workItem from="1594378722358" duration="2557000" />
+      <workItem from="1594392143353" duration="314000" />
+      <workItem from="1594436929075" duration="1058000" />
+      <workItem from="1594455182502" duration="1453000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="429" y="127" key="#xdebugger.evaluate" timestamp="1594391740270">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="429" y="127" key="#xdebugger.evaluate/0.25.1440.790@0.25.1440.790" timestamp="1594391740270" />
+    <state width="1290" height="200" key="GridCell.Tab.0.bottom" timestamp="1594460595073">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1290" height="200" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1594460595073" />
+    <state width="1290" height="200" key="GridCell.Tab.0.center" timestamp="1594460595072">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1290" height="200" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1594460595072" />
+    <state width="1290" height="200" key="GridCell.Tab.0.left" timestamp="1594460595072">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1290" height="200" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1594460595072" />
+    <state width="1290" height="200" key="GridCell.Tab.0.right" timestamp="1594460595073">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1290" height="200" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1594460595073" />
+    <state width="1290" height="248" key="GridCell.Tab.1.bottom" timestamp="1594454691925">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1290" height="248" key="GridCell.Tab.1.bottom/0.25.1440.790@0.25.1440.790" timestamp="1594454691925" />
+    <state width="1290" height="248" key="GridCell.Tab.1.center" timestamp="1594454691924">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1290" height="248" key="GridCell.Tab.1.center/0.25.1440.790@0.25.1440.790" timestamp="1594454691924" />
+    <state width="1290" height="248" key="GridCell.Tab.1.left" timestamp="1594454691923">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1290" height="248" key="GridCell.Tab.1.left/0.25.1440.790@0.25.1440.790" timestamp="1594454691923" />
+    <state width="1290" height="248" key="GridCell.Tab.1.right" timestamp="1594454691924">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1290" height="248" key="GridCell.Tab.1.right/0.25.1440.790@0.25.1440.790" timestamp="1594454691924" />
+    <state x="293" y="49" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594379392917">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="293" y="49" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1440.790@0.25.1440.790" timestamp="1594379392917" />
+  </component>
+</project>
