@@ -1,0 +1,17 @@
+REQUEST
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webService/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <web:getName>
+            <id></id>
+        </web:getName>
+    </soapenv:Body>
+</soapenv:Envelope>
+RESPONSE
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+<S:Body>
+    <ns2:getNameResponse xmlns:ns2="http://webService/">
+        <return>Em yeu thay Khanh</return>
+    </ns2:getNameResponse>
+</S:Body>
+</S:Envelope>

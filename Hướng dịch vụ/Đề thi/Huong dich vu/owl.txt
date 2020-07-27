@@ -1,0 +1,132 @@
+
+UML   ------------>   OWL
+
+<?xml version = "1.0">
+<rdf:RDF xmlns="http://de2.owl#"
+	xml:base="http://de2.owl"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+<owl:Class rdf:ID="Customer"/>
+<owl:Class rdf:ID="Account"/>
+<owl:Class rdf:ID="Bank"/>
+
+<owl:DatatypeProperty rdf:ID="id">
+	<rdfs:domain rdf:resource="#Customer"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="name">
+	<rdfs:domain rdf:parseType="Collection">
+		<rdf:Description rdf:about="#Customer"/>
+		<rdf:Description rdf:about="#Bank"/>
+	</rdfs:domain>
+	<rdfs:range rdf:resource="&xsd;string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="address">
+	<rdfs:domain rdf:parseType="Collection">
+		<rdf:Description rdf:about="#Customer"/>
+		<rdf:Description rdf:about="#Bank"/>
+	</rdfs:domain>
+	<rdfs:range rdf:resource="&xsd;string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="type">
+	<rdfs:domain rdf:resource="#Account"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+</owl:DatatypeProperty>
+
+<owl:ObjectProperty rdf:ID="owner">
+	<rdfs:domain rdf:resource="#Account"/>
+	<rdfs:range rdf:resource="&owl;#Customer"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="branch">
+	<rdfs:domain rdf:resource="#Account"/>
+	<rdfs:range rdf:resource="&owl;#Bank"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:ID="balance">
+	<rdfs:domain rdf:resource="#Account"/>
+	<rdfs:range rdf:resource="&xsd;int"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="bankId">
+	<rdfs:domain rdf:resource="#Bank"/>
+	<rdfs:range rdf:resource="&xsd;string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:ID="SavingAccount">
+	<rdfs:subClassOf>
+		<owl:Class>
+			<owl:intersectionOf rdf:parseType="Collection"
+				<owl:Class rdf:about="#Account"/>
+				<owl:Restriction>
+					<owl:onProperty rdf:resource="#type"/>
+					<owl:hasValue rdf:datatype="&xsd;int">2</owl:hasValue>
+				</owl:Restriction>
+				<owl:Restriction>
+					<owl:onProperty rdf:resource="#balance/>
+					<owl:minCardinality rdf:datatype="&xsd;int>20000000</owl:minCardinality>
+				</owl:Restriction>
+			</owl:intersectionOf>
+		</owl:Class>
+	</rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:ID="CurrentAccount">
+	<rdfs:subClassOf>
+		<owl:Class>
+			<owl:intersectionOf rdf:parseType="Collection"
+				<owl:Class rdf:about="#Account"/>
+				<owl:Restriction>
+					<owl:onProperty rdf:resource="#type"/>
+					<owl:hasValue rdf:datatype="&xsd;int">1</owl:hasValue>
+				</owl:Restriction>
+				<owl:Restriction>
+					<owl:onProperty rdf:resource="#balance"/>
+					<owl:minCardinality rdf:datatype="&xsd;int>1000000</owl:minCardinality>
+				</owl:Restriction>
+			</owl:intersectionOf>
+		</owl:Class>
+	</rdfs:subClassOf>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:ID="periode">
+	<rdfs:domain rdf:resource="#SavingAccount"/>
+	<rdfs:range rdf:resource="&xsd;int"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="limitedInDay">
+	<rdfs:domain rdf:resource="#CurrentAccount"/>
+	<rdfs:range rdf:resource="&xsd;int"/>
+</owl:DatatypeProperty>
+	
+		
+EXAMPLE
+
+<SavingAccount rdf:ID="SAccount" xmlns="http://de2.owl/saving_account#">
+	<type>2</type>
+	<owner>
+		<Customer rdf:ID="Dat" xmlns="http://de2.owl/customer#">
+			<id>C123</id>
+			<name>Dao Quoc Dat</name>
+			<address>Ha Noi</adress>
+		</Customer>
+	</owner>
+
+	<branch>
+		<Bank rdf:ID="VPBank" xmlns="http://de2.owl/bank#">
+			<bankId> VPP </bankId>
+			<address>Ha Tay</address>
+			<name> VP Bank </name>
+		</Bank>
+	</branch>
+	<balance>21000000</balance>
+	<periode>12</periode>
+</SavingAccount>
+			
+			
