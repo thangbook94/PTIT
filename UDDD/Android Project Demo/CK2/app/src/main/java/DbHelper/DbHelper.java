@@ -5,12 +5,13 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.net.Uri;
+import android.provider.ContactsContract;
 import android.util.Log;
 
 import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 import entity.User;
@@ -125,19 +126,39 @@ public class DbHelper extends SQLiteOpenHelper {
     }
 
 
-    public HashMap<String, Integer> getChuyenMon() {
-        HashMap<String, Integer> map = new HashMap<>();
-        Cursor c = this.getReadableDatabase().rawQuery("select namSinh, count(id) from user group by namSinh;", null);
-        if (c.moveToFirst()) {
-            while (c.moveToNext()) {
-                String namsinh = c.getString(0);
-                int soluong = c.getInt(1);
-                map.put(namsinh, soluong);
+    public List<String> getChuyenMon() {
+//        HashMap<String, Integer> map = new HashMap<>();
+//        Cursor c = this.getReadableDatabase().rawQuery("select namSinh, count(id) from user group by namSinh;", null);
+//        if (c.moveToFirst()) {
+//            while (c.moveToNext()) {
+//                String namsinh = c.getString(0);
+//                int soluong = c.getInt(1);
+//                map.put(namsinh, soluong);
+//            }
+//        }
+//        for (String i : map.keySet()) {
+//            Log.v("ffasfasfasfasf", i + " XXXXXX " + map.get(i));
+//        }
+        Uri uri = Uri.parse("content://contacts/people");
+        ArrayList<String> list = new ArrayList<>();
+        Cursor c1 = context.getContentResolver().query(uri, null, null, null, null);
+        if (c1.moveToFirst()) {
+            do {
+                String id = ContactsContract.Contacts._ID;
+                String s = "";
+                int idIndex = c1.getColumnIndex(id);
+                s = c1.getString(idIndex) + "--";
+                String nameCol = ContactsContract.Contacts.DISPLAY_NAME;
+                int nameIndex = c1.getColumnIndex(nameCol);
+                s += c1.getString(nameIndex);
+                list.add(s);
+            } while (c1.moveToNext());
+            for (String i : list) {
+                Log.v("asadsad", i);
             }
         }
-        for (String i : map.keySet()) {
-            Log.v("ffasfasfasfasf", i + " XXXXXX " + map.get(i));
-        }
-        return map;
+        c1.close();
+        return list;
+//        return map;
     }
 }

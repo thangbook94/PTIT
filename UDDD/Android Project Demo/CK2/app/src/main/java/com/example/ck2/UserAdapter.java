@@ -9,8 +9,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import entity.User;
-
 public class UserAdapter extends BaseAdapter {
     Activity activity;
     List<String> list;

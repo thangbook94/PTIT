@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Meo Meo Note</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Meo Meo Note</string>
+    <string name="nav_header_subtitle">meow meow meow!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sync (Beta)</string>
+
+    <string name="menu_home">Notes</string>
+    <string name="menu_checklist">Checklist</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_cats">Cats</string>
+    <string name="menu_about">About</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="about_version"><b>2.0</b></string>
+    <string name="about_author">3 Con Hổ ft. BMTS</string>
+    <string name="about_contact_fb"><u>fb.com/noha612</u></string>
+
+    <string-array name="cat">
+        <!--        <item>"apricot"</item>-->
+        <!--        <item>"bandit"</item>-->
+        <!--        <item>"bengal_jack"</item>-->
+        <!--        <item>"billy_0"</item>-->
+        <!--        <item>"bob_the_cat"</item>-->
+        <!--        <item>"bolt"</item>-->
+        <!--        <item>"breezy"</item>-->
+        <!--        <item>"callie"</item>-->
+        <!--        <item>"caramel"</item>-->
+        <!--        <item>"chair"</item>-->
+        <!--        <item>"chip"</item>-->
+        <!--        <item>"chocola"</item>-->
+        <!--        <item>"cocoa"</item>-->
+        <!--        <item>"dottie"</item>-->
+        <!--        <item>"fred"</item>-->
+        <!--        <item>"frosty"</item>-->
+        <!--        <item>"gabriel"</item>-->
+        <!--        <item>"ganache"</item>-->
+        <!--        <item>"ginger"</item>-->
+        <!--        <item>"gozer"</item>-->
+        <!--        <item>"great"</item>-->
+        <!--        <item>"guy"</item>-->
+        <!--        <item>"hermeowne"</item>-->
+        <!--        <item>"jeeves"</item>-->
+        <!--        <item>"joe_dimeowgio"</item>-->
+        <!--        <item>"kathmandu"</item>-->
+        <!--        <item>"lexy"</item>-->
+        <!--        <item>"mack"</item>-->
+        <!--        <item>"maple"</item>-->
+        <!--        <item>"marshmellow"</item>-->
+        <!--        <item>"meow"</item>-->
+        <!--        <item>"meowgi"</item>-->
+        <!--        <item>"misty"</item>-->
+        <!--        <item>"ms_fortune"</item>-->
+        <!--        <item>"pasty"</item>-->
+        <!--        <item>"patches"</item>-->
+        <!--        <item>"peaches"</item>-->
+        <!--        <item>"pepper"</item>-->
+        <!--        <item>"pickles"</item>-->
+        <!--        <item>"princess"</item>-->
+        <!--        <item>"pumpkin"</item>-->
+        <!--        <item>"quicksilver"</item>-->
+        <!--        <item>"rascal"</item>-->
+        <!--        <item>"saint"</item>-->
+        <!--        <item>"sapphire"</item>-->
+        <!--        <item>"sassy_fran"</item>-->
+        <!--        <item>"senor_don_gato"</item>-->
+        <!--        <item>"shadow"</item>-->
+        <!--        <item>"smokey"</item>-->
+        <!--        <item>"snowball"</item>-->
+        <!--        <item>"socks"</item>-->
+        <!--        <item>"sooty"</item>-->
+        <!--        <item>"speckles"</item>-->
+        <!--        <item>"spooky"</item>-->
+        <!--        <item>"spud"</item>-->
+        <!--        <item>"sunny"</item>-->
+        <!--        <item>"tabb"</item>-->
+        <!--        <item>"whiskers"</item>-->
+        <!--        <item>"whiteshadow"</item>-->
+        <!--        <item>"willie"</item>-->
+        <!--        <item>"willow"</item>-->
+        <!--        <item>"xerxes"</item>-->
+    </string-array>
+    <string-array name="cat_short_name">
+        <item>"snowball"</item>
+        <item>"shadow"</item>
+        <item>"ms_fortune"</item>
+        <item>"bengal_jack"</item>
+        <item>"bob_the_cat"</item>
+        <item>"chair"</item>
+        <item>"great"</item>
+        <item>"guy"</item>
+        <item>"hermeowne"</item>
+        <item>"jeeves"</item>
+        <item>"joe_dimeowgio"</item>
+        <item>"kathmandu"</item>
+        <item>"meow"</item>
+        <item>"meowgi"</item>
+        <item>"princess"</item>
+        <item>"pumpkin"</item>
+        <item>"saint"</item>
+        <item>"sapphire"</item>
+        <item>"sassy_fran"</item>
+        <item>"senor_don_gato"</item>
+        <item>"tubbs"</item>
+        <item>"whiskers"</item>
+        <item>"whiteshadow"</item>
+        <item>"xerxes"</item>
+    </string-array>
+    <string-array name="cat_full_name">
+        <item>"Snowball"</item>
+        <item>"Shadow"</item>
+        <item>"Ms. Fortune"</item>
+        <item>"Bengal Jack"</item>
+        <item>"Bob The Cat"</item>
+        <item>"Chairman meow"</item>
+        <item>"Ramses the Great"</item>
+        <item>"Guy Furry"</item>
+        <item>"Hermeowne"</item>
+        <item>"Jeeves"</item>
+        <item>"Joe DiMeowgio"</item>
+        <item>"Kathmandu"</item>
+        <item>"Lady Meow-Meow"</item>
+        <item>"Mr. Meowgi"</item>
+        <item>"Princess"</item>
+        <item>"Pumpkin"</item>
+        <item>"Saint Purrtrick"</item>
+        <item>"Sapphire"</item>
+        <item>"Sassy Fran"</item>
+        <item>"Senor Don Gato"</item>
+        <item>"Tubbs"</item>
+        <item>"Conductor Whiskers"</item>
+        <item>"Whiteshadow"</item>
+        <item>"Xerxes IX"</item>
+    </string-array>
+    <string name="title_activity_calendar_info">CalendarInfo</string>
+    <string name="tab_text_1">Note</string>
+    <string name="tab_text_2">Check List</string>
+    <string name="set_date"><![CDATA[-> Set Date <-]]></string>
+    <string name="set_time"><![CDATA[-> Set Time <-]]></string>
+</resources>

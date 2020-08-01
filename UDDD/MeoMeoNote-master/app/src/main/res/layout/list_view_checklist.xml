@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/checklist_title"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/patrick_hand"
+            android:gravity="center"
+            android:text="Title"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numberChecklistUndone"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/patrick_hand"
+            android:text="10/20"
+            android:textColor="@color/add_button_cat_foot_background"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/checklist_created"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/patrick_hand"
+            android:text="28/06/2020"
+            android:textSize="22sp" />
+    </LinearLayout>
+</LinearLayout>

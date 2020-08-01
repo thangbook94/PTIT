@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">@color/backgroundListViewColor</color>
+    <color name="backgroundListViewColor">#827799</color>
+    <color name="background_note_detail">#f3d6b7</color>
+    <color name="calendar_note">#5B3F51B5</color>
+    <color name="calendar_checklist">#EAAC69</color>
+    <color name="calendar_both">#FFFFFF</color>
+</resources>

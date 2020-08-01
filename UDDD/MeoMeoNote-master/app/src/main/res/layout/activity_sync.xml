@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transprent_black"
+    android:orientation="vertical"
+    tools:context=".Sync">
+
+    <TextView
+        android:id="@+id/sync_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/patrick_hand"
+        android:inputType="textPersonName"
+        android:text="Please Login to Sync"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/sync_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sync_push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_baseline_cloud_upload_24"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/sync_pull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_baseline_cloud_download_24"
+            android:enabled="false" />
+    </LinearLayout>
+</LinearLayout>

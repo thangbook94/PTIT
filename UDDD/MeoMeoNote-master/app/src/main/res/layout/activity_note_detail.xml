@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_note_detail"
+    android:orientation="vertical"
+    tools:context=".NoteDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/background3"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_check_pro" />
+
+            <TextView
+                android:id="@+id/page_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/btn_back"
+                android:text=" New Note"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_lock"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toLeftOf="@id/btn_attach"
+                android:background="@android:drawable/ic_lock_lock" />
+
+            <Button
+                android:id="@+id/btn_attach"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toLeftOf="@id/btn_reminder"
+                android:background="@android:drawable/ic_menu_gallery" />
+
+            <Button
+                android:id="@+id/btn_reminder"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@android:drawable/ic_menu_recent_history" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_avt_chooser"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/cat_avt_snowball" />
+
+        <EditText
+            android:id="@+id/note_title"
+            android:layout_width="200dp"
+            android:layout_height="85dp"
+            android:fontFamily="@font/patrick_hand"
+            android:hint="Title..."
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/attach_image_layout"
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:background="?attr/actionBarDivider">
+
+            <ImageView
+                android:id="@+id/attach_image"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+
+        <Button
+            android:id="@+id/btn_editable"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:drawable/ic_menu_edit" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/note_content"
+        android:layout_width="305dp"
+        android:layout_height="548dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/patrick_hand"
+        android:gravity="start|top"
+        android:hint="content..."
+        android:inputType="textMultiLine"
+        android:textColor="@color/cardview_dark_background" />
+</LinearLayout>

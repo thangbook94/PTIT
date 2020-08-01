@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="nhom7.thh.meomeonote.ui.notes.NotesFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_notes" />
+
+    <fragment
+        android:id="@+id/nav_checklist"
+        android:name="nhom7.thh.meomeonote.ui.checklist.ChecklistFragment"
+        android:label="@string/menu_checklist"
+        tools:layout="@layout/fragment_checklist" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="nhom7.thh.meomeonote.ui.calendar.CalendarFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_cats"
+        android:name="nhom7.thh.meomeonote.ui.cats.CatsFragment"
+        android:label="@string/menu_cats"
+        tools:layout="@layout/fragment_cats" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="nhom7.thh.meomeonote.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

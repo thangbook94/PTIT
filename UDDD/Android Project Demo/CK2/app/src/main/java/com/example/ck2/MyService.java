@@ -5,12 +5,6 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.widget.Toast;
 
-import java.util.Date;
-import java.util.List;
-
-import DbHelper.DbHelper;
-import entity.User;
-
 public class MyService extends Service {
     public MyService() {
     }

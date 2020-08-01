@@ -1,4 +1,4 @@
-package dbhelper;
+package com.example.myapplication.dbhelper;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import entity.User;
+import com.example.myapplication.entity.User;
 
 public class DbHelper extends SQLiteOpenHelper {
     private Context context;

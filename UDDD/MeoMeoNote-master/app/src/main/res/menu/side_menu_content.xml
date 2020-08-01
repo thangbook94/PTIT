@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/memento_willie"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_checklist"
+            android:icon="@drawable/memento_princess"
+            android:title="@string/menu_checklist" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/memento_gabriel"
+            android:title="@string/menu_calendar" />
+        <item
+            android:id="@+id/nav_cats"
+            android:icon="@drawable/cat_avt_apricot"
+            android:title="@string/menu_cats" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/menu_about" />
+    </group>
+</menu>
